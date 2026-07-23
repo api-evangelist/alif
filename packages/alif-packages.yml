@@ -1,0 +1,45 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/alifsemi
+note: >-
+  Alif Semiconductor is an embedded silicon vendor; it ships firmware/embedded
+  SDKs through its GitHub organization (github.com/alifsemi) rather than through
+  language package registries (npm/PyPI/Maven/etc.). All packages below are
+  first-party GitHub-distributed SDKs and device packs for the Ensemble and
+  Balletto microcontroller families.
+packages:
+- language: c
+  registry: github
+  name: sdk-alif
+  url: https://github.com/alifsemi/sdk-alif
+  install: west init -m https://github.com/alifsemi/sdk-alif
+  official: true
+  description: Zephyr-based software development kit for Alif Ensemble microcontrollers.
+- language: c
+  registry: github
+  name: alif_ensemble-cmsis-dfp
+  url: https://github.com/alifsemi/alif_ensemble-cmsis-dfp
+  install: Install via CMSIS-Pack / Keil MDK pack installer
+  official: true
+  description: CMSIS Device Family Pack (DFP) for Alif Ensemble devices.
+- language: c
+  registry: github
+  name: alif_vscode-template
+  url: https://github.com/alifsemi/alif_vscode-template
+  install: git clone https://github.com/alifsemi/alif_vscode-template
+  official: true
+  description: VS Code project template for developing on Alif Ensemble MCUs.
+- language: c
+  registry: github
+  name: alif_ml-embedded-evaluation-kit
+  url: https://github.com/alifsemi/alif_ml-embedded-evaluation-kit
+  install: git clone https://github.com/alifsemi/alif_ml-embedded-evaluation-kit
+  official: true
+  description: ML embedded evaluation kit (Arm ML-eval-kit fork) adapted for Alif hardware.
+- language: c
+  registry: github
+  name: zephyr_alif
+  url: https://github.com/alifsemi/zephyr_alif
+  install: west manifest for Zephyr RTOS on Alif silicon
+  official: true
+  description: Alif port of the Zephyr RTOS for Ensemble devices.

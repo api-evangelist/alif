@@ -1,9 +1,29 @@
 aid: alif
 name: Alif
-description: 'Alif is a company surfaced as a portfolio company of kleiner-perkins and added to the API
-  Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Alif Semiconductor is a Silicon Valley fabless semiconductor company building
+  secure, ultra-low-power 32-bit microcontrollers and fusion processors for edge
+  AI/ML. Its Ensemble, Ensemble Gen AI, and Balletto product families pair Arm
+  Cortex-M and Cortex-A cores with dedicated Ethos-U55 neural processing units,
+  hardware AI acceleration, wireless connectivity, and a multilayered security
+  architecture so machine-learning and generative-AI workloads can run directly
+  on battery-powered devices. Developer resources center on Zephyr-based SDKs,
+  CMSIS device family packs, VS Code project templates, evaluation kits,
+  datasheets, reference manuals, and the Conductor configuration tool rather than
+  a hosted web API. The company is backed by Kleiner Perkins.
 url: https://raw.githubusercontent.com/api-evangelist/alif/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://alifsemi.com/wp-content/uploads/2023/07/blue-arrow.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,9 +36,43 @@ modified: '2026-07-17'
 tags:
 - Company
 - Hardtech
+- Semiconductors
+- Microcontrollers
+- Edge AI
+- Machine Learning
+- Embedded
+- IoT
+- Generative AI
+- MCU
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alif-domain-security.yml
+- type: Website
+  url: https://alifsemi.com
+- type: DeveloperPortal
+  url: https://alifsemi.com/support/
+- type: Documentation
+  url: https://alifsemi.com/support/reference-manuals/view-all/
+- type: GitHubOrganization
+  url: https://github.com/alifsemi
+- type: Blog
+  url: https://alifsemi.com/blog/
+- type: Support
+  url: https://alifsemi.com/support/technical-support/
+- type: SignUp
+  url: https://alifsemi.com/account/
+- type: Packages
+  url: packages/alif-packages.yml
+- type: SDKs
+  url: packages/alif-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
