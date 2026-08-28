@@ -12,6 +12,17 @@ description: >-
   datasheets, reference manuals, and the Conductor configuration tool rather than
   a hosted web API. The company is backed by Kleiner Perkins.
 url: https://raw.githubusercontent.com/api-evangelist/alif/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
